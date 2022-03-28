@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+}
+body{
+ background-image: linear-gradient(120deg,#fad7fa,#be1c80);
+ color: #fff;
+ min-height: 100vh;
+}
+h1{
+    font-size: 2rem;
+}
+h1,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
